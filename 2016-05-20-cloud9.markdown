@@ -1,0 +1,66 @@
+---
+layout: default
+title: Rails Kids Cloud9 Setup Guide
+permalink: cloud9-guide
+---
+
+# Rails Kids Cloud9 Setup Guide
+
+*Created by Sorcha Abel & Darren Oliver  <a href="https://twitter.com/hellorails" class="twitter-follow-button" data-show-count="false">Follow @hellorails</a>
+                                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+# Welcome!!
+
+Hi and welcome to our first Rails Kids guide. This guide will help you get set up with Cloud9 which a development environment in the cloud. Initially we
+will be doing our coding in this environment. But don't worry we will be here to guide you though all the steps necessary to get you up and running. There are a few
+thing you need to do first so lets get started.
+
+1. Sign up for a [Github](https://github.com/) account.
+
+2 . Then, go to the [cloud9 website](https://c9.io/).
+
+Click the __signup__ button. Signup using the github account you just created.
+
+<img src="/images/c9/c9-signup-with-github.png">
+
+Once you have signed up, you will be shown your dashboard. __Create a New workspace__ by clicking the green plus icon.
+
+<img src="/images/c9/c9-create-workspace.png">
+
+Name your new workspace _railskids_, and make sure you are creating a Ruby workspace. Then click 'Create workspace'.
+
+<img src="/images/c9/c9-create-workspace-2.png">
+
+You will then be taken directly to your new workspace.
+
+## Workspace environment
+
+<img src="/images/c9/c9-project-workspace-annotated.png">
+
+The workspace is made up of a few important areas.
+
+- The file explorer and editor are where we will be spending a lot of time. Choose files to edit using the explorer. They will open in a new tab in the file editor.
+- Run Project Button. We will use this to start and stop our Rails application.
+- The Terminal is used to enter commands to our application.
+
+## Set up the text editor
+
+The Ruby global convention is to use 2 spaces for indentation. Lets change the default editor to use 2 spaces.
+
+Click on the settings icon in the upper right side of the window. A preferences window will open edit the __Soft Tabs__ setting to reduce it to 2.
+![Cloud 9 editor](/images/c9/c9-settings.png "C9 editor")
+
+## Viewing your project in the Browser
+
+From the ruby-railskids terminal you need to start the rails server. Click the 'Run Project' button.
+
+![Cloud 9 Rails Server](/images/c9/c9-run-server.png "C9 Run Server")
+
+Click on the share button in the top right window. From the __Share this workspace__ window click on the url in Application and select the open option
+
+<img src="/images/c9/c9-share-workspace.png">
+
+The Welcome Aboard Ruby page will be displayed.
+
+<img src="/images/c9/c9-welcome.png" alt="Welcome" width="600">
+
