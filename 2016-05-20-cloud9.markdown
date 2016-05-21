@@ -13,29 +13,58 @@ permalink: cloud9-guide
 
 Hi and welcome to our first Rails Kids guide. This guide will help you get set up with Cloud9 which a development environment in the cloud. Initially we
 will be doing our coding in this environment. But don't worry we will be here to guide you though all the steps necessary to get you up and running. There are a few
-thing you need to do first so lets get started.
+things you need to do first so lets get started.
 
-1. Sign up for a [Github](https://github.com/) account.
+1. Go to the [cloud9 website](https://c9.io/).
 
-2 . Then, go to the [cloud9 website](https://c9.io/).
+2. Sign up for a Cloud9 account. There are a few steps to this but don't worry we will guide you through. If you are unsure as an instructor. Also don't worry
+if your screen looks a little different. The steps below will help :)
 
-Click the __signup__ button. Signup using the github account you just created.
+# Setup Pages
 
-<img src="/images/c9/c9-signup-with-github.png">
+Click the __Sign In__ button.
 
-Once you have signed up, you will be shown your dashboard. __Create a New workspace__ by clicking the green plus icon.
+<img src="/images/signup_step1.png" width="70%">
 
-<img src="/images/c9/c9-create-workspace.png">
+Next click the __Sign Up__ button
 
-Name your new workspace _railskids_, and make sure you are creating a Ruby workspace. Then click 'Create workspace'.
+<img src="/images/signup_step2.png" width="70%">
 
-<img src="/images/c9/c9-create-workspace-2.png">
+You will be asked to enter your __email address__ to start creating your new account
+
+<img src="/images/signup_pg1.png" width="600">
+
+Cloud9 will then ask you to enter your __name__
+
+<img src="/images/signup_pg2.png" width="600">
+
+Next you will enter a __username__
+
+<img src="/images/signup_pg3.png" width="600">
+
+Then you must fill in a few details about yourself, similar to below
+
+<img src="/images/signup_pg4.png" width="600">
+
+Finally you will need to check the box confirming you are __not a robot__
+
+<img src="/images/signup_pg5.png" width="600">
+
+Once you have signed up, you will be shown your dashboard. __Create a New workspace__ by clicking the plus icon.
+
+<img src="/images/signup_pg6.png" width="70%">
+
+## Workspace Setup
+
+Name your new workspace _railskids_, and make sure you are creating a __Ruby__ workspace. Then click `Create workspace`.
+
+<img src="/images/signup_pg7.png" width="70%">
 
 You will then be taken directly to your new workspace.
 
 ## Workspace environment
 
-<img src="/images/c9/c9-project-workspace-annotated.png">
+<img src="/images/opening_pg.png" width="70%">
 
 The workspace is made up of a few important areas.
 
@@ -47,20 +76,23 @@ The workspace is made up of a few important areas.
 
 The Ruby global convention is to use 2 spaces for indentation. Lets change the default editor to use 2 spaces.
 
-Click on the settings icon in the upper right side of the window. A preferences window will open edit the __Soft Tabs__ setting to reduce it to 2.
-![Cloud 9 editor](/images/c9/c9-settings.png "C9 editor")
+Click on the Workspace settings icon (shown in the image above) in the upper right side of the window. A preferences window will open edit the __Soft Tabs__ setting to reduce it to 2.
+<img src="/images/settings.png" width="600">
 
 ## Viewing your project in the Browser
 
 From the ruby-railskids terminal you need to start the rails server. Click the 'Run Project' button.
 
-![Cloud 9 Rails Server](/images/c9/c9-run-server.png "C9 Run Server")
+<img src="/images/run_project.png" width="30%">
 
 Click on the share button in the top right window. From the __Share this workspace__ window click on the url in Application and select the open option
 
-<img src="/images/c9/c9-share-workspace.png">
+<img src="/images/share_screen.png" width="600">
 
-The Welcome Aboard Ruby page will be displayed.
+The __Welcome Aboard__ Ruby page will be displayed.
 
-<img src="/images/c9/c9-welcome.png" alt="Welcome" width="600">
+<img src="/images/welcome.png" alt="Welcome" width="600">
+
+# Congrats
+Congrats you've just set up your environment. We are now ready to start building some exciting apps :)
 
